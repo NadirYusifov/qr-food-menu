@@ -1,8 +1,8 @@
-import { data, type Foods } from "../data/foods";
-
+import type { Foods } from "../data/foods"
 interface props {
     food: Foods
 }
+
 export default function Card({food}: props) {
     return (
         <>
@@ -13,8 +13,8 @@ export default function Card({food}: props) {
                         alt="Shoes" />
                 </figure>
                 <div className="card-body">
-                    <h2 className="card-title">{food?.Ad}</h2>
-                    <p>{food?.Tərkibi?.toString()}</p>
+                    <h2 className="card-title">{food?.name}</h2>
+                    <p>{food.ingedrients?.toString().replaceAll(",", ", ")}</p>
                     <div className="card-actions justify-end">
                         <button className="btn btn-primary">Ətraflı</button>
                     </div>
