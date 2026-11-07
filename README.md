@@ -1,4 +1,4 @@
-# QR Menu
+# QR Food Menu
 <img src="src/assets/qr-menu-photo.png"/>
 
 ## 🌐 Demo:
