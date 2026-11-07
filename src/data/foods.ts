@@ -79,73 +79,73 @@ export const data: Foods[] = [
   },
   {
     category: "Salatlar",
-    ingedrients: ["Rəngli Bibər", "Mayonez/Zeytun yaği", "Qarıdağlı", "Toyuq filesi","Şüyüd"],
+    ingedrients: ["Rəngli Bibər", "Mayonez/Zeytun yaği", "Qarıdağlı", "Toyuq filesi", "Şüyüd"],
     name: "Vitamin Salatları"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Mal əti", "Lavaş", "Pomidor", "Xiyar", "Soğan", "Sous"],
-    name: "Mal əti lavaş dönər"
+    name: "Mal əti lavaş Dönər"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Toyuq əti", "Lavaş", "Pomidor", "Xiyar", "Kahı", "Sarımsaqlı sous"],
-    name: "Toyuq lavaş dönər"
+    name: "Toyuq lavaş Dönər"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Mal əti", "Çörək", "Pomidor", "Xiyar", "Soğan", "Sous"],
-    name: "Mal əti çörək dönər"
+    name: "Mal əti çörək Dönər"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Toyuq əti", "Çörək", "Pomidor", "Kahı", "Mayonez"],
-    name: "Toyuq çörək dönər"
+    name: "Toyuq çörək Dönər"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Mal əti", "Düyü", "Kartof fri", "Pomidor", "Sous"],
-    name: "Mal əti porsiyon dönər"
+    name: "Mal əti porsiyon Dönər"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Toyuq əti", "Düyü", "Kartof fri", "Turşu xiyar", "Sous"],
-    name: "Toyuq porsiyon dönər"
+    name: "Toyuq porsiyon Dönər"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Mal əti", "Lavaş", "Kaşar pendiri", "Pomidor", "Sous"],
-    name: "Kaşarlı dönər"
+    name: "Kaşarlı Dönər"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Toyuq əti", "Lavaş", "Kaşar pendiri", "Göbələk", "Sous"],
-    name: "Kaşarlı toyuq dönər"
+    name: "Kaşarlı toyuq Dönər"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Mal əti", "Lavaş", "Kartof fri", "Turşu xiyar", "Sous"],
-    name: "Kartoflu dönər"
+    name: "Kartoflu Dönər"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Mal əti", "Lavaş", "Bekon", "Kaşar pendiri", "BBQ sousu"],
-    name: "BBQ dönər"
+    name: "BBQ Dönər"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Mal əti", "Lavaş", "Pomidor", "Xiyar", "Feta pendiri", "Zeytun"],
-    name: "Yunan dönəri"
+    name: "Yunan Dönəri"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Toyuq əti", "Lavaş", "Kartof fri", "Kaşar pendiri", "Mayonez"],
-    name: "Mega toyuq dönər"
+    name: "Mega toyuq Dönər"
   },
   {
-    category: "Dönər",
+    category: "Dönərlər",
     ingedrients: ["Toyuq əti", "Lavaş", "Pomidor", "Qırmızı soğan", "BBQ sousu"],
-    name: "BBQ toyuq dönər"
+    name: "BBQ toyuq Dönər"
   },
   {
     category: "Şorbalar",
@@ -154,8 +154,23 @@ export const data: Foods[] = [
   },
   {
     category: "Xəmir yeməkləri",
-    ingedrients: ["Un", "Qoyun əti", "Soğan", "Duz", "İstiot"],
-    name: "Qutab"
+    ingedrients: ["Un", "Su", "Qoyun əti", "Soğan", "Duz", "İstiot"],
+    name: "Ət Qutabı"
+  },
+  {
+    category: "Xəmir yeməkləri",
+    ingedrients: ["Un", "Su", "Göyərtilər", "Duz"],
+    name: "Göy Qutabı"
+  },
+  {
+    category: "Xəmir yeməkləri",
+    ingedrients: ["Un", "Su", "Pendir", "Duz"],
+    name: "Pendirli Qutabı"
+  },
+  {
+    category: "Xəmir yeməkləri",
+    ingedrients: ["Un", "Su", "Balqabaq", "Duz"],
+    name: "Balqabaq Qutabı"
   },
   {
     category: "Milli yeməklər",
@@ -571,5 +586,10 @@ export const data: Foods[] = [
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Pomidor", "Qara zeytun", "Kapari"],
     name: "Siciliana"
+  },
+  {
+    category: "Xəmir yeməkləri",
+    ingedrients: ["Un", "Su", "Yumurta"],
+    name: "Yayma xəngəl"
   }
 ]
