@@ -14,7 +14,7 @@ export const data: Foods[] = [
   },
   {
     category: "Milli yeməklər",
-    ingedrients: ["Quzu əti", "Düyü", "Soğan", "Şabalıd", "Ərik qurusu"],
+    ingedrients: ["Quzu əti", "Yumuru düyü", "Yağ", "Soğan", "Göyərtilər"],
     name: "Yarpaq dolması"
   },
   {
@@ -45,107 +45,107 @@ export const data: Foods[] = [
   {
     category: "Salatlar",
     ingedrients: ["Pomidor", "Xiyar", "Soğan", "Göyərti", "Duz"],
-    name: "Çoban Salatları"
+    name: "Çoban salatı"
   },
   {
     category: "Salatlar",
     ingedrients: ["Pomidor", "Xiyar", "Soğan", "Göyərti", "Zeytun yağı"],
-    name: "Çoban Salatları"
+    name: "Çoban salatı"
   },
   {
     category: "Salatlar",
     ingedrients: ["Toyuq filesi", "Kahı", "Parmezan pendiri", "Suxari", "Sezar sousu"],
-    name: "Sezar Salatları"
+    name: "Sezar salatı"
   },
   {
     category: "Salatlar",
     ingedrients: ["Qaynadılmış kartof", "Yumurta", "Noxud", "Turşu xiyar", "Mayonez"],
-    name: "Paytaxt Salatları"
+    name: "Paytaxt salatı"
   },
   {
     category: "Salatlar",
     ingedrients: ["Pomidor", "Xiyar", "Feta pendiri", "Zeytun", "Soğan"],
-    name: "Yunan Salatları"
+    name: "Yunan salatı"
   },
   {
     category: "Salatlar",
     ingedrients: ["Toyuq filesi", "Qarğıdalı", "Göbələk", "Yumurta", "Mayonez"],
-    name: "Toyuqlu Salatlar"
+    name: "Toyuqlu salat"
   },
   {
     category: "Salatlar",
     ingedrients: ["Ton balığı", "Kahı", "Pomidor", "Yumurta", "Zeytun"],
-    name: "Ton balıqlı Salatlar"
+    name: "Ton balıqlı salat"
   },
   {
     category: "Salatlar",
     ingedrients: ["Rəngli Bibər", "Mayonez/Zeytun yaği", "Qarıdağlı", "Toyuq filesi", "Şüyüd"],
-    name: "Vitamin Salatları"
+    name: "Rəngli bibər salatı"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Mal əti", "Lavaş", "Pomidor", "Xiyar", "Soğan", "Sous"],
-    name: "Mal əti lavaş Dönər"
+    name: "Mal əti lavaş dönər"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Toyuq əti", "Lavaş", "Pomidor", "Xiyar", "Kahı", "Sarımsaqlı sous"],
-    name: "Toyuq lavaş Dönər"
+    name: "Toyuq lavaş dönər"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Mal əti", "Çörək", "Pomidor", "Xiyar", "Soğan", "Sous"],
-    name: "Mal əti çörək Dönər"
+    name: "Mal əti çörək dönər"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Toyuq əti", "Çörək", "Pomidor", "Kahı", "Mayonez"],
-    name: "Toyuq çörək Dönər"
+    name: "Toyuq çörək dönər"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Mal əti", "Düyü", "Kartof fri", "Pomidor", "Sous"],
-    name: "Mal əti porsiyon Dönər"
+    name: "Mal əti porsiyon dönər"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Toyuq əti", "Düyü", "Kartof fri", "Turşu xiyar", "Sous"],
-    name: "Toyuq porsiyon Dönər"
+    name: "Toyuq porsiyon dönər"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Mal əti", "Lavaş", "Kaşar pendiri", "Pomidor", "Sous"],
-    name: "Kaşarlı Dönər"
+    name: "Kaşarlı dönər"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Toyuq əti", "Lavaş", "Kaşar pendiri", "Göbələk", "Sous"],
-    name: "Kaşarlı toyuq Dönər"
+    name: "Kaşarlı toyuq dönər"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Mal əti", "Lavaş", "Kartof fri", "Turşu xiyar", "Sous"],
-    name: "Kartoflu Dönər"
+    name: "Kartoflu dönər"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Mal əti", "Lavaş", "Bekon", "Kaşar pendiri", "BBQ sousu"],
-    name: "BBQ Dönər"
+    name: "Manqalda dönər"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Mal əti", "Lavaş", "Pomidor", "Xiyar", "Feta pendiri", "Zeytun"],
-    name: "Yunan Dönəri"
+    name: "Yunan dönəri"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Toyuq əti", "Lavaş", "Kartof fri", "Kaşar pendiri", "Mayonez"],
-    name: "Mega toyuq Dönər"
+    name: "Mega toyuq dönər"
   },
   {
     category: "Dönərlər",
     ingedrients: ["Toyuq əti", "Lavaş", "Pomidor", "Qırmızı soğan", "BBQ sousu"],
-    name: "BBQ toyuq Dönər"
+    name: "BBQ toyuq dönər"
   },
   {
     category: "Şorbalar",
@@ -155,22 +155,22 @@ export const data: Foods[] = [
   {
     category: "Xəmir yeməkləri",
     ingedrients: ["Un", "Su", "Qoyun əti", "Soğan", "Duz", "İstiot"],
-    name: "Ət Qutabı"
+    name: "Ət qutabı"
   },
   {
     category: "Xəmir yeməkləri",
     ingedrients: ["Un", "Su", "Göyərtilər", "Duz"],
-    name: "Göy Qutabı"
+    name: "Göy qutabı"
   },
   {
     category: "Xəmir yeməkləri",
     ingedrients: ["Un", "Su", "Pendir", "Duz"],
-    name: "Pendirli Qutabı"
+    name: "Pendirli qutabı"
   },
   {
     category: "Xəmir yeməkləri",
     ingedrients: ["Un", "Su", "Balqabaq", "Duz"],
-    name: "Balqabaq Qutabı"
+    name: "Balqabaq qutabı"
   },
   {
     category: "Milli yeməklər",
@@ -206,11 +206,6 @@ export const data: Foods[] = [
     category: "İçkilər",
     ingedrients: ["Süd", "Duz"],
     name: "Sadə ayran"
-  },
-  {
-    category: "Səhər yeməyi",
-    ingedrients: ["Yumurta", "Pomidor", "Bibər", "Duz"],
-    name: "Pomidor yumurta"
   },
   {
     category: "Səhər yeməyi",
@@ -305,42 +300,42 @@ export const data: Foods[] = [
   {
     category: "Kabablar",
     ingedrients: ["Quzu əti", "Soğan", "Duz", "İstiot"],
-    name: "Tikə Kabablar"
+    name: "Tikə kabab"
   },
   {
     category: "Kabablar",
     ingedrients: ["Quzu qiyməsi", "Quyruq yağı", "Soğan", "Duz", "İstiot"],
-    name: "Lülə Kabablar"
+    name: "Lülə kabab"
   },
   {
     category: "Kabablar",
     ingedrients: ["Toyuq filesi", "Sarımsaq", "Zeytun yağı", "Paprika"],
-    name: "Toyuq Kababları"
+    name: "Toyuq kababı"
   },
   {
     category: "Kabablar",
     ingedrients: ["Quzu qabırğası", "Duz", "İstiot", "Kəklikotu"],
-    name: "Qabırğa Kababları"
+    name: "Qabırğa kababı"
   },
   {
     category: "Kabablar",
     ingedrients: ["Quzu ciyəri", "Quyruq yağı", "Duz", "İstiot"],
-    name: "Ciyər Kababları"
+    name: "Ciyər kababı"
   },
   {
     category: "Kabablar",
     ingedrients: ["Mal əti", "Soğan", "Cəfəri", "Duz", "İstiot"],
-    name: "Adana Kababları"
+    name: "Adana kababı"
   },
   {
     category: "Kabablar",
     ingedrients: ["Nərə balığı", "Limon", "Zeytun yağı", "Duz"],
-    name: "Balıq Kababları"
+    name: "Balıq kababı"
   },
   {
     category: "Kabablar",
     ingedrients: ["Quzu əti", "Quyruq yağı", "Soğan", "Duz", "İstiot"],
-    name: "Şah Kababları"
+    name: "Şah kababı"
   },
   {
     category: "Pizzalar",
@@ -375,12 +370,12 @@ export const data: Foods[] = [
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Ton balığı", "Qırmızı soğan", "Zeytun"],
-    name: "Tuna Pizzalar"
+    name: "Tuna Pizza"
   },
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Karides", "Sarımsaq", "Zeytun yağı"],
-    name: "Seafood Pizzalar"
+    name: "Seafood Pizza"
   },
   {
     category: "Pizzalar",
@@ -390,12 +385,12 @@ export const data: Foods[] = [
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Salami", "Zeytun", "Bolqar bibəri"],
-    name: "Salami Pizzalar"
+    name: "Salami Pizza"
   },
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Mal əti", "Göbələk", "Qırmızı soğan"],
-    name: "Beef Pizzalar"
+    name: "Beef Pizza"
   },
   {
     category: "Pizzalar",
@@ -405,7 +400,7 @@ export const data: Foods[] = [
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Kolbasa", "Göbələk", "Qarğıdalı"],
-    name: "Maxi Pizzalar"
+    name: "Maxi Pizza"
   },
   {
     category: "Pizzalar",
@@ -415,7 +410,7 @@ export const data: Foods[] = [
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Pomidor", "Zeytun", "Göbələk", "Bibər"],
-    name: "Vegetarian Pizzalar"
+    name: "Vegetarian Pizza"
   },
   {
     category: "Pizzalar",
@@ -440,12 +435,12 @@ export const data: Foods[] = [
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Sucuk", "Pomidor", "Yaşıl bibər"],
-    name: "Turkish Sucuk Pizzalar"
+    name: "Turkish Sucuk Pizza"
   },
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Pastırma", "Pomidor sousu", "Oreqano"],
-    name: "Pastırma Pizzalar"
+    name: "Pastırma Pizza"
   },
   {
     category: "Pizzalar",
@@ -455,7 +450,7 @@ export const data: Foods[] = [
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Pomidor", "Feta pendiri", "Zeytun", "Oreqano"],
-    name: "Greek Pizzalar"
+    name: "Greek Pizza"
   },
   {
     category: "Pizzalar",
@@ -470,12 +465,12 @@ export const data: Foods[] = [
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Badımcan", "Balqabaq", "Bibər", "Pomidor"],
-    name: "Mediterranean Pizzalar"
+    name: "Mediterranean Pizza"
   },
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Qızılbalıq", "Krem pendir", "Şüyüd"],
-    name: "Salmon Pizzalar"
+    name: "Salmon Pizza"
   },
   {
     category: "Pizzalar",
@@ -485,7 +480,7 @@ export const data: Foods[] = [
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Göbələk", "Trüfel yağı", "Parmezan"],
-    name: "Truffle Pizzalar"
+    name: "Truffle Pizza"
   },
   {
     category: "Pizzalar",
@@ -495,12 +490,12 @@ export const data: Foods[] = [
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Qoyun pendiri", "Pomidor", "Reyhan"],
-    name: "Caprese Pizzalar"
+    name: "Caprese Pizza"
   },
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Kolbasa", "Göbələk", "Zeytun", "Qırmızı bibər"],
-    name: "Supreme Pizzalar"
+    name: "Supreme Pizza"
   },
   {
     category: "Pizzalar",
@@ -520,7 +515,7 @@ export const data: Foods[] = [
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Qızardılmış badımcan", "Pomidor", "Reyhan"],
-    name: "Parmigiana Pizzalar"
+    name: "Parmigiana Pizza"
   },
   {
     category: "Pizzalar",
@@ -530,7 +525,7 @@ export const data: Foods[] = [
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Qovrulmuş mal əti", "Göbələk", "Soğan"],
-    name: "Roast Beef Pizzalar"
+    name: "Roast Beef Pizza"
   },
   {
     category: "Pizzalar",
@@ -565,22 +560,22 @@ export const data: Foods[] = [
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Rikotta", "Bal", "Qoz"],
-    name: "Honey Cheese Pizzalar"
+    name: "Honey Cheese Pizza"
   },
   {
     category: "Pizzalar",
     ingedrients: ["Mozzarella pendiri", "Alma", "Darçın", "Qoz", "Bal"],
-    name: "Apple Dessert Pizzalar"
+    name: "Apple Dessert Pizza"
   },
   {
     category: "Pizzalar",
     ingedrients: ["Şokolad", "Banan", "Çiyələk", "Fındıq"],
-    name: "Chocolate Pizzalar"
+    name: "Chocolate Pizza"
   },
   {
     category: "Pizzalar",
     ingedrients: ["Nutella", "Banan", "Çiyələk", "Fındıq"],
-    name: "Nutella Pizzalar"
+    name: "Nutella Pizza"
   },
   {
     category: "Pizzalar",
