@@ -1,18 +1,20 @@
+import { data } from "./data/foods";
 import Card from "./components/card";
 import Tabs from "./components/tabs";
-import { data } from "./data/foods";
 import Footer from "./layout/footer";
+import Header from "./layout/header";
 
 export default function App() {
     const group = Object.groupBy(data, ({ category }) => category)
 
     return (
         <>
+            <Header />
             <section className="flex flex-col place-items-center w-full">
                 <div className="flex items-center gap-4 overflow-y-scroll w-full lg:w-1/2 mt-10 px-4">
                     {Object.entries(group).map(([category]) => (
                         <Tabs key={category} link={`#${category.replaceAll(" ", "").toLowerCase()}`}>
-                            <button className="rounded-lg bg-[#B8892D] text-[#F5EFE3] px-4 py-2 text-nowrap snap-x cursor-pointer">
+                            <button className="rounded-lg bg-[#B8892D] text-[#F5EFE3] px-4 py-2 text-nowrap snap-x cursor-pointer active:scale-97">
                                 {category}
                             </button>
                         </Tabs>
@@ -26,7 +28,7 @@ export default function App() {
                         */}
                         {Object.entries(group).map(([category, foods]) => (
                             <div key={category}>
-                                <article id={category.replaceAll(" ", "").toLowerCase()}>
+                                <article className="scroll-mt-25" id={category.replaceAll(" ", "").toLowerCase()}>
                                     <h1 className="text-2xl mt-20 pb-3">{category}</h1>
                                 </article>
                                 <div className="grid grid-cols-2 gap-4">
