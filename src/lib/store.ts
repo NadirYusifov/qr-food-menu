@@ -1,8 +1,9 @@
 import { create } from "zustand";
+import type { MouseEvent } from "react";
 
-type BearState = {
+interface BearState {
   bears: number
-  increase: (state: number) => void
+  increase: (state: number | MouseEvent<HTMLButtonElement>) => void
   decrease: (state: number) => void
 }
 
