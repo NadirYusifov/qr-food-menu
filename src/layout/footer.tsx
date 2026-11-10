@@ -8,7 +8,7 @@ export default function Footer() {
           <h1 className="text-3xl">QR Food Menu</h1>
         </article>
         <article className="text-center pt-10">
-          <Link to={"https://github.com/NadirYusifov/qr-menu"} className="text-lg">GitHub</Link>
+          <Link to={"https://github.com/NadirYusifov/qr-food-menu"} className="text-lg">GitHub</Link>
         </article>
       </div>
     </footer>
