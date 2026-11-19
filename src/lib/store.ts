@@ -1,15 +1,17 @@
 import { create } from "zustand";
-import type { MouseEvent } from "react";
+import type { Foods } from "../types";
 
-// [https://stackoverflow.com/questions/63172748/typescript-type-for-onclick-event-considering-it-could-be-triggered-from-the-key] ‒ TypeScript type for onClick event considering it could be triggered from the keyboard (Asked: Evanss) - Stack Overflow
-interface BearState {
-  bears: number
-  increase: (state: number | MouseEvent<HTMLButtonElement>) => void
-  decrease: (state: number) => void
+interface CartItems extends Foods {
+    quantity: number
 }
 
-export const useBearStore = create<BearState>()((set) => ({
-  bears: 0,
-  increase: () => set((state) => ({ bears: state.bears + 1 })),
-  decrease: (newBears) => set({bears: newBears})
+interface CartState {
+    count: number
+    items: CartItems[]
+    addToCart?: (food: Foods) => void
+}
+
+export const useCartStore = create<CartState>((set) => ({
+    count: 0,
+    items: []
 }))
