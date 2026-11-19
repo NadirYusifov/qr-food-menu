@@ -1,7 +1,7 @@
 import { Trash } from "lucide-react";
 import type { Foods } from "../types/index";
 
-interface Props {
+type Props = {
     items: Foods
 }
 
