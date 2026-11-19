@@ -1,10 +1,4 @@
-import type { ReactNode } from "react";
-
-export interface Foods {
-  category: string,
-  ingedrients: ReactNode,
-  name: string,
-}
+import type { Foods } from "../types";
 
 export const data: Foods[] = [
   {
