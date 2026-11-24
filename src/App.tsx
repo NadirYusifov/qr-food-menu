@@ -1,5 +1,6 @@
 import Cart from "./pages/cart";
 import Home from "./pages/home";
+import NotFound from "./pages/404";
 import Header from "./layout/header";
 import Footer from "./layout/footer";
 import Referances from "./pages/referances";
@@ -11,6 +12,7 @@ export default function App() {
         <>
             <Header />
             <Routes>
+                <Route path="*" element={<NotFound />} />
                 <Route index element={<Home />} />
                 <Route path="cart" element={<Cart />} />
                 <Route path="referances" element={<Referances />} />
